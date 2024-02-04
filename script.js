@@ -23,3 +23,12 @@ xmark.addEventListener('click',()=>{
     navList.style.transitionTimingFunction = "ease-in-out" ;
     navList.style.boxShadow = "none" ;
 })
+
+
+
+let Year = document.getElementById('year') ;
+
+let date = new Date();
+
+let y = date.getFullYear();
+Year.innerHTML = y;
