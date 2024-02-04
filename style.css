@@ -265,9 +265,13 @@
 }
 .logoList span:nth-child(5)
 {
-    background-image: url(logos/sql.png);
+    background-image: url(logos/php.png);
 }
 .logoList span:nth-child(6)
+{
+    background-image: url(logos/sql.png);
+}
+.logoList span:nth-child(7)
 {
     background-image: url(logos/ps.png);
 }
